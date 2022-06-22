@@ -1,0 +1,62 @@
+.sing-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem 0;
+    max-width: 600px;
+    max-height: 650px;
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 1rem;
+}
+
+.sing-up-inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    gap: 1em;
+}
+
+.sign-up-special-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    padding: 1em 15em;
+    border-radius: 1rem;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.normal-input{
+    padding: 0.8em 1.3em;
+    border: 1px solid rgba(78, 93, 120, 0.2);
+    border-radius: 1rem;
+}
+
+.sign-up-special-inputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.sign-up-checkboxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3em;
+    border: 1px solid rgba(78, 93, 120, 0.2);
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.sign-up-date {
+    padding: 0 2em 0 1em;
+    border: 1px solid rgba(78, 93, 120, 0.2);
+    border-radius: 1rem;
+    width: 100%;
+}
+
